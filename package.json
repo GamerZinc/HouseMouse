@@ -1,0 +1,30 @@
+{
+  "name": "housemouse",
+  "version": "1.0.0",
+  "description": "House Mouse Home Automation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Porter",
+  "license": "ISC",
+  "devDependencies": {
+    "candyman": "0.1.86",
+    "gulp": "3.9.1",
+    "gulp-jscs": "3.0.2",
+    "gulp-jshint": "2.0.1",
+    "jshint": "2.9.2",
+    "jshint-stylish": "2.2.0"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "1.0.12",
+    "chromedriver": "2.21.2",
+    "flickrapi": "0.4.2",
+    "gulp-nodemon": "2.0.7",
+    "habitat": "^3.1.2",
+    "lupus": "0.0.1",
+    "play-sound-v12": "0.1.1",
+    "rsvp": "3.2.1",
+    "selenium-webdriver": "2.53.2"
+  }
+}

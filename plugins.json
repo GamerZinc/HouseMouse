@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        {
+            "name": "pandora", 
+            "type": "audio",
+            "url": "http://www.pandora.com",
+            "user": "bobporter@hotmail.com",
+            "password": "Sting2002",
+            "enabled": "false"
+        },
+        {
+            "name": "audiofile",
+            "type": "audio",
+            "directory": "./audio",
+            "enabled": "true"
+        },
+        {
+            "name": "flickr",
+            "type": "photo",
+            "userId": "43241655@N00",
+            "key": "eec639653804d7ad31b3bd40aa0cab4e",
+            "secret": "575be128154c8280",
+            "accessToken": "72157666103991233-c79763e14c547e4d",
+            "accessTokenSecret": "091f6b2316d2ec20",
+            "delay": "15000",
+            "enabled": "true"
+        }
+    ]
+}
